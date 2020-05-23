@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
         seg_time_arr = segment_time_array(current_time)
 
-        if now.minute > last_minute and now.minute % 39 == 0:
+        if now.minute > last_minute and now.minute % 30 == 0:
             screwy_display(seg_time_arr, 7, 0.1)
         else:
             display_time(seg_time_arr, now.second)
